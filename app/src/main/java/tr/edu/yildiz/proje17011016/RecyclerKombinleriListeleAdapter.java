@@ -127,7 +127,7 @@ public class RecyclerKombinleriListeleAdapter extends RecyclerView.Adapter<Recyc
             image4=itemView.findViewById(R.id.imageViewK4);
             image5=itemView.findViewById(R.id.imageViewK5);
             silButton=itemView.findViewById(R.id.buttonKombinSil);
-            paylas=itemView.findViewById(R.id.button9);
+
 
         }
     }
