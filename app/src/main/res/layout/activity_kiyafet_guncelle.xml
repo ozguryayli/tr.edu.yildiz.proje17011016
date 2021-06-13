@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KiyafetGuncelleActivity">
+
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="642dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:onClick="selectedImage"
+            app:srcCompat="@drawable/kiyafet" />
+
+        <EditText
+            android:id="@+id/editTextTur2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Tür"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextRenk2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Renk"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextDesen2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Desen"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTarih2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Tarih"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextFiyat2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:hint="Fiyat"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonEkle3"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:backgroundTint="#8000BCD4"
+            android:onClick="kiyafetGuncelle"
+            android:text="KIYAFETİ Güncelle" />
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

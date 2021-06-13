@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KombinGorActivity">
+
+    <Button
+        android:id="@+id/buttonKombinEkle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:backgroundTint="#8000BCD4"
+        android:onClick="kombinKaydet"
+        android:text="Kombini Ekle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="600dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="50dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageViewBasUstu"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="kombin1"
+            app:srcCompat="@drawable/kiyafet" />
+
+        <ImageView
+            android:id="@+id/imageViewSurat"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="kombin2"
+            app:srcCompat="@drawable/kiyafet" />
+
+        <ImageView
+            android:id="@+id/imageViewUst"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="kombin3"
+            app:srcCompat="@drawable/kiyafet" />
+
+        <ImageView
+            android:id="@+id/imageViewAlt"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="kombin4"
+            app:srcCompat="@drawable/kiyafet" />
+
+        <ImageView
+            android:id="@+id/imageViewAyak"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="kombin5"
+            app:srcCompat="@drawable/kiyafet" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:onClick="kombiniPaylas"
+        android:text="KOMBİNİ PAYLAŞ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
