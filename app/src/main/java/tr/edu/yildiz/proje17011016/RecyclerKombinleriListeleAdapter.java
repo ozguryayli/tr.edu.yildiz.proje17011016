@@ -97,12 +97,7 @@ public class RecyclerKombinleriListeleAdapter extends RecyclerView.Adapter<Recyc
             }
         });
 
-        kombinlerHolder.paylas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-            }
-        });
     }
 
     @Override
